@@ -1,0 +1,963 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ejemplos: Referencia del Archivo SieteYMedio.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Ejemplos
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#typedef-members">typedefs</a> &#124;
+<a href="#func-members">Funciones</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo SieteYMedio.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Este programa simula el juego del siete y medio.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;ctime&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jugador.html">Jugador</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Datos del jugador.  <a href="struct_jugador.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jugadores.html">Jugadores</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agrupacion de jugadores.  <a href="struct_jugadores.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_carta.html">Carta</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Datos de cada carta.  <a href="struct_carta.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_baraja.html">Baraja</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agrupacion de cartas.  <a href="struct_baraja.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+typedefs</h2></td></tr>
+<tr class="memitem:afbb038f7cdde41b4b07e234142b77692"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#afbb038f7cdde41b4b07e234142b77692">Repetidos</a>[<a class="el" href="_siete_y_medio_8cpp.html#a725940f6d1df2006dccc42a6303fe6c5">MAX_C</a>]</td></tr>
+<tr class="memdesc:afbb038f7cdde41b4b07e234142b77692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector para guardar los numeros repetidos cuando se baraja la baraja.  <a href="_siete_y_medio_8cpp.html#afbb038f7cdde41b4b07e234142b77692">Más...</a><br /></td></tr>
+<tr class="separator:afbb038f7cdde41b4b07e234142b77692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f12943a525bea4bb84e46d81252d727"><td class="memItemLeft" align="right" valign="top">typedef string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Palos</a>[<a class="el" href="_siete_y_medio_8cpp.html#a21e9b221f96043b2d6e2f087d31bcfda">MAX_P</a>]</td></tr>
+<tr class="memdesc:a4f12943a525bea4bb84e46d81252d727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector para guardas los distintos tipos de palos.  <a href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Más...</a><br /></td></tr>
+<tr class="separator:a4f12943a525bea4bb84e46d81252d727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff566d076f7650eac0e46214a3ccf4e8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_jugador.html">Jugador</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#aff566d076f7650eac0e46214a3ccf4e8">V_jugadores</a>[<a class="el" href="_siete_y_medio_8cpp.html#a001b5c7f81711a6aac2ed7b3906a8f04">MAX_J</a>]</td></tr>
+<tr class="memdesc:aff566d076f7650eac0e46214a3ccf4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector de los jugadores.  <a href="_siete_y_medio_8cpp.html#aff566d076f7650eac0e46214a3ccf4e8">Más...</a><br /></td></tr>
+<tr class="separator:aff566d076f7650eac0e46214a3ccf4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7569e143c027278a842e99843b5e12f2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_carta.html">Carta</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a7569e143c027278a842e99843b5e12f2">V_Cart</a>[<a class="el" href="_siete_y_medio_8cpp.html#a725940f6d1df2006dccc42a6303fe6c5">MAX_C</a>]</td></tr>
+<tr class="memdesc:a7569e143c027278a842e99843b5e12f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector de cartas.  <a href="_siete_y_medio_8cpp.html#a7569e143c027278a842e99843b5e12f2">Más...</a><br /></td></tr>
+<tr class="separator:a7569e143c027278a842e99843b5e12f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a7a0208ee9ad240ec0a3fac04a9a6048a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_jugador.html">Jugador</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a7a0208ee9ad240ec0a3fac04a9a6048a">IdentificarJugador</a> (string nom, <a class="el" href="struct_jugadores.html">Jugadores</a> &amp;jugs)</td></tr>
+<tr class="memdesc:a7a0208ee9ad240ec0a3fac04a9a6048a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IdentificarJugador.  <a href="_siete_y_medio_8cpp.html#a7a0208ee9ad240ec0a3fac04a9a6048a">Más...</a><br /></td></tr>
+<tr class="separator:a7a0208ee9ad240ec0a3fac04a9a6048a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0b233741b33b3dc1f5c02ce26700b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a9a0b233741b33b3dc1f5c02ce26700b8">MostrarDinero</a> (<a class="el" href="struct_jugador.html">Jugador</a> j)</td></tr>
+<tr class="memdesc:a9a0b233741b33b3dc1f5c02ce26700b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">MostrarDinero.  <a href="_siete_y_medio_8cpp.html#a9a0b233741b33b3dc1f5c02ce26700b8">Más...</a><br /></td></tr>
+<tr class="separator:a9a0b233741b33b3dc1f5c02ce26700b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2884d54f261df6054e401a365d48c014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a2884d54f261df6054e401a365d48c014">Salida</a> (string n_f, <a class="el" href="struct_jugadores.html">Jugadores</a> jugs)</td></tr>
+<tr class="memdesc:a2884d54f261df6054e401a365d48c014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salida.  <a href="_siete_y_medio_8cpp.html#a2884d54f261df6054e401a365d48c014">Más...</a><br /></td></tr>
+<tr class="separator:a2884d54f261df6054e401a365d48c014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fce1ca52115812ebf4258582d113515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a8fce1ca52115812ebf4258582d113515">GenerarBaraja</a> (const <a class="el" href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Palos</a> <a class="el" href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Palos</a>)</td></tr>
+<tr class="memdesc:a8fce1ca52115812ebf4258582d113515"><td class="mdescLeft">&#160;</td><td class="mdescRight">GenerarBaraja.  <a href="_siete_y_medio_8cpp.html#a8fce1ca52115812ebf4258582d113515">Más...</a><br /></td></tr>
+<tr class="separator:a8fce1ca52115812ebf4258582d113515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3901cfd216325a7d6b241a684a667f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a3901cfd216325a7d6b241a684a667f86">Barajar</a> (<a class="el" href="struct_baraja.html">Baraja</a> baraja)</td></tr>
+<tr class="memdesc:a3901cfd216325a7d6b241a684a667f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Barajar.  <a href="_siete_y_medio_8cpp.html#a3901cfd216325a7d6b241a684a667f86">Más...</a><br /></td></tr>
+<tr class="separator:a3901cfd216325a7d6b241a684a667f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbfd134bcfeb74b65ad3504d9217830"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a2cbfd134bcfeb74b65ad3504d9217830">Aparecido</a> (<a class="el" href="_siete_y_medio_8cpp.html#afbb038f7cdde41b4b07e234142b77692">Repetidos</a> repe, int numero, int &amp;tam)</td></tr>
+<tr class="memdesc:a2cbfd134bcfeb74b65ad3504d9217830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aparecido.  <a href="_siete_y_medio_8cpp.html#a2cbfd134bcfeb74b65ad3504d9217830">Más...</a><br /></td></tr>
+<tr class="separator:a2cbfd134bcfeb74b65ad3504d9217830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ebd837e20ecf9aa78abb7164f873d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#ad9ebd837e20ecf9aa78abb7164f873d8">Jugar</a> (<a class="el" href="struct_baraja.html">Baraja</a> baraja, <a class="el" href="struct_jugador.html">Jugador</a> &amp;j_actual, <a class="el" href="struct_jugadores.html">Jugadores</a> &amp;jugs, string &amp;nom)</td></tr>
+<tr class="memdesc:ad9ebd837e20ecf9aa78abb7164f873d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jugar.  <a href="_siete_y_medio_8cpp.html#ad9ebd837e20ecf9aa78abb7164f873d8">Más...</a><br /></td></tr>
+<tr class="separator:ad9ebd837e20ecf9aa78abb7164f873d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49cfdcba070375cab6c6dfd5ec4b6267"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a49cfdcba070375cab6c6dfd5ec4b6267">RepartirCarta</a> (<a class="el" href="struct_baraja.html">Baraja</a> baraja, <a class="el" href="struct_baraja.html">Baraja</a> &amp;cartas_repartidas, float &amp;puntos, int &amp;indice_baraja)</td></tr>
+<tr class="memdesc:a49cfdcba070375cab6c6dfd5ec4b6267"><td class="mdescLeft">&#160;</td><td class="mdescRight">RepartirCarta.  <a href="_siete_y_medio_8cpp.html#a49cfdcba070375cab6c6dfd5ec4b6267">Más...</a><br /></td></tr>
+<tr class="separator:a49cfdcba070375cab6c6dfd5ec4b6267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9dce06d743019c66d3a211d202d963c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#aa9dce06d743019c66d3a211d202d963c">Apostar</a> (<a class="el" href="struct_jugador.html">Jugador</a> j_actual)</td></tr>
+<tr class="memdesc:aa9dce06d743019c66d3a211d202d963c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apostar.  <a href="_siete_y_medio_8cpp.html#aa9dce06d743019c66d3a211d202d963c">Más...</a><br /></td></tr>
+<tr class="separator:aa9dce06d743019c66d3a211d202d963c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2247483242e4b291db607260089bda44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a2247483242e4b291db607260089bda44">UltimaPartida</a> (string n)</td></tr>
+<tr class="memdesc:a2247483242e4b291db607260089bda44"><td class="mdescLeft">&#160;</td><td class="mdescRight">UltimaPartida.  <a href="_siete_y_medio_8cpp.html#a2247483242e4b291db607260089bda44">Más...</a><br /></td></tr>
+<tr class="separator:a2247483242e4b291db607260089bda44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0078df6e80ca916588b6d91342962c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#ae0078df6e80ca916588b6d91342962c7">MostrarCartas</a> (<a class="el" href="struct_baraja.html">Baraja</a> b)</td></tr>
+<tr class="memdesc:ae0078df6e80ca916588b6d91342962c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">MostrarCartas.  <a href="_siete_y_medio_8cpp.html#ae0078df6e80ca916588b6d91342962c7">Más...</a><br /></td></tr>
+<tr class="separator:ae0078df6e80ca916588b6d91342962c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebbcb9de4e050b88ff8a126b6c73668e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#aebbcb9de4e050b88ff8a126b6c73668e">ConstruirPalo</a> (string palo, string &amp;p1, string &amp;p2, string &amp;p3, string &amp;p4,string &amp;p5)</td></tr>
+<tr class="memdesc:aebbcb9de4e050b88ff8a126b6c73668e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ConstruirPalo.  <a href="_siete_y_medio_8cpp.html#aebbcb9de4e050b88ff8a126b6c73668e">Más...</a><br /></td></tr>
+<tr class="separator:aebbcb9de4e050b88ff8a126b6c73668e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9390e42cbe357dcdbbe2c3b646a787a8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a9390e42cbe357dcdbbe2c3b646a787a8">ConstruirSuperior</a> (<a class="el" href="struct_carta.html">Carta</a> carta)</td></tr>
+<tr class="memdesc:a9390e42cbe357dcdbbe2c3b646a787a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ConstruirSuperior.  <a href="_siete_y_medio_8cpp.html#a9390e42cbe357dcdbbe2c3b646a787a8">Más...</a><br /></td></tr>
+<tr class="separator:a9390e42cbe357dcdbbe2c3b646a787a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744270c7a9ce3f8b7c06acf537d568fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a744270c7a9ce3f8b7c06acf537d568fd">LeerCartas</a> (int num, ifstream &amp;f)</td></tr>
+<tr class="memdesc:a744270c7a9ce3f8b7c06acf537d568fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">LeerCartas.  <a href="_siete_y_medio_8cpp.html#a744270c7a9ce3f8b7c06acf537d568fd">Más...</a><br /></td></tr>
+<tr class="separator:a744270c7a9ce3f8b7c06acf537d568fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1763e3d29009b3c843d38b2bbfadcc48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a1763e3d29009b3c843d38b2bbfadcc48">EscribirDatos</a> (<a class="el" href="struct_baraja.html">Baraja</a> baraja, ofstream &amp;f, float puntos)</td></tr>
+<tr class="memdesc:a1763e3d29009b3c843d38b2bbfadcc48"><td class="mdescLeft">&#160;</td><td class="mdescRight">EscribirDatos.  <a href="_siete_y_medio_8cpp.html#a1763e3d29009b3c843d38b2bbfadcc48">Más...</a><br /></td></tr>
+<tr class="separator:a1763e3d29009b3c843d38b2bbfadcc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf35efdd802bb3196df2a87a23ecc1cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#adf35efdd802bb3196df2a87a23ecc1cf">MostrarBienvenida</a> ()</td></tr>
+<tr class="memdesc:adf35efdd802bb3196df2a87a23ecc1cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">MostrarBienvenida.  <a href="_siete_y_medio_8cpp.html#adf35efdd802bb3196df2a87a23ecc1cf">Más...</a><br /></td></tr>
+<tr class="separator:adf35efdd802bb3196df2a87a23ecc1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a725940f6d1df2006dccc42a6303fe6c5"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a725940f6d1df2006dccc42a6303fe6c5">MAX_C</a> = 40</td></tr>
+<tr class="memdesc:a725940f6d1df2006dccc42a6303fe6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximo numero de cartas en la baraja.  <a href="_siete_y_medio_8cpp.html#a725940f6d1df2006dccc42a6303fe6c5">Más...</a><br /></td></tr>
+<tr class="separator:a725940f6d1df2006dccc42a6303fe6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e9b221f96043b2d6e2f087d31bcfda"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a21e9b221f96043b2d6e2f087d31bcfda">MAX_P</a> = 4</td></tr>
+<tr class="memdesc:a21e9b221f96043b2d6e2f087d31bcfda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximo numero de palos.  <a href="_siete_y_medio_8cpp.html#a21e9b221f96043b2d6e2f087d31bcfda">Más...</a><br /></td></tr>
+<tr class="separator:a21e9b221f96043b2d6e2f087d31bcfda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001b5c7f81711a6aac2ed7b3906a8f04"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a001b5c7f81711a6aac2ed7b3906a8f04">MAX_J</a> = 10</td></tr>
+<tr class="memdesc:a001b5c7f81711a6aac2ed7b3906a8f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximo numero de jugadores.  <a href="_siete_y_medio_8cpp.html#a001b5c7f81711a6aac2ed7b3906a8f04">Más...</a><br /></td></tr>
+<tr class="separator:a001b5c7f81711a6aac2ed7b3906a8f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025f198deaa08a3970f6b45d4be5f19a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#a025f198deaa08a3970f6b45d4be5f19a">FICHERO</a> = &quot;dinero.juego&quot;</td></tr>
+<tr class="memdesc:a025f198deaa08a3970f6b45d4be5f19a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre del fichero de los jugadores.  <a href="_siete_y_medio_8cpp.html#a025f198deaa08a3970f6b45d4be5f19a">Más...</a><br /></td></tr>
+<tr class="separator:a025f198deaa08a3970f6b45d4be5f19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abccf123aa6f5de847e763879178ac91b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#abccf123aa6f5de847e763879178ac91b">BIENVENIDA</a> = &quot;bienvenida.txt&quot;</td></tr>
+<tr class="memdesc:abccf123aa6f5de847e763879178ac91b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre del mensaje de bienvenida.  <a href="_siete_y_medio_8cpp.html#abccf123aa6f5de847e763879178ac91b">Más...</a><br /></td></tr>
+<tr class="separator:abccf123aa6f5de847e763879178ac91b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2cd0c1ab62e664ce66de992424ae3a0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Palos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_siete_y_medio_8cpp.html#af2cd0c1ab62e664ce66de992424ae3a0">PALOS</a> = {&quot;Oros&quot;,&quot;Bastos&quot;,&quot;Espadas&quot;,&quot;Copas&quot;}</td></tr>
+<tr class="memdesc:af2cd0c1ab62e664ce66de992424ae3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Palos.  <a href="_siete_y_medio_8cpp.html#af2cd0c1ab62e664ce66de992424ae3a0">Más...</a><br /></td></tr>
+<tr class="separator:af2cd0c1ab62e664ce66de992424ae3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Este programa simula el juego del siete y medio. </p>
+<dl class="section date"><dt>Fecha</dt><dd>06/01/2022 </dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Jose Miguel Vallet Comes Borja Somovilla del Saz </dd></dl>
+</div><h2 class="groupheader">Documentación de los 'typedefs'</h2>
+<a id="a4f12943a525bea4bb84e46d81252d727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f12943a525bea4bb84e46d81252d727">&#9670;&nbsp;</a></span>Palos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef string Palos[<a class="el" href="_siete_y_medio_8cpp.html#a21e9b221f96043b2d6e2f087d31bcfda">MAX_P</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector para guardas los distintos tipos de palos. </p>
+
+</div>
+</div>
+<a id="afbb038f7cdde41b4b07e234142b77692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb038f7cdde41b4b07e234142b77692">&#9670;&nbsp;</a></span>Repetidos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int Repetidos[<a class="el" href="_siete_y_medio_8cpp.html#a725940f6d1df2006dccc42a6303fe6c5">MAX_C</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector para guardar los numeros repetidos cuando se baraja la baraja. </p>
+
+</div>
+</div>
+<a id="a7569e143c027278a842e99843b5e12f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7569e143c027278a842e99843b5e12f2">&#9670;&nbsp;</a></span>V_Cart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="struct_carta.html">Carta</a> V_Cart[<a class="el" href="_siete_y_medio_8cpp.html#a725940f6d1df2006dccc42a6303fe6c5">MAX_C</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector de cartas. </p>
+
+</div>
+</div>
+<a id="aff566d076f7650eac0e46214a3ccf4e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff566d076f7650eac0e46214a3ccf4e8">&#9670;&nbsp;</a></span>V_jugadores</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="struct_jugador.html">Jugador</a> V_jugadores[<a class="el" href="_siete_y_medio_8cpp.html#a001b5c7f81711a6aac2ed7b3906a8f04">MAX_J</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector de los jugadores. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="a2cbfd134bcfeb74b65ad3504d9217830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbfd134bcfeb74b65ad3504d9217830">&#9670;&nbsp;</a></span>Aparecido()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Aparecido </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_siete_y_medio_8cpp.html#afbb038f7cdde41b4b07e234142b77692">Repetidos</a>&#160;</td>
+          <td class="paramname"><em>repe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numero</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>tam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Aparecido. </p>
+<p>Nos dice si la posicion ya ha aparecido</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">repe</td><td>Vector de numeros ya aparecidos </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">numero</td><td>numero a comprobar si ha aparecido </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">tam</td><td>tamayo actual del vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>valor booleano que nos dice si ha aparecido </dd></dl>
+
+</div>
+</div>
+<a id="aa9dce06d743019c66d3a211d202d963c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9dce06d743019c66d3a211d202d963c">&#9670;&nbsp;</a></span>Apostar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Apostar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_jugador.html">Jugador</a>&#160;</td>
+          <td class="paramname"><em>j_actual</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apostar. </p>
+<p>Permite al jugador apostar dinero</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">j_actual</td><td>jugador actual </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3901cfd216325a7d6b241a684a667f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3901cfd216325a7d6b241a684a667f86">&#9670;&nbsp;</a></span>Barajar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_baraja.html">Baraja</a> Barajar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td>
+          <td class="paramname"><em>baraja</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Barajar. </p>
+<p><a class="el" href="struct_baraja.html" title="Agrupacion de cartas.">Baraja</a> baraja</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">baraja</td><td>baraja a barajar </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>agrupacion de cartas </dd></dl>
+
+</div>
+</div>
+<a id="aebbcb9de4e050b88ff8a126b6c73668e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebbcb9de4e050b88ff8a126b6c73668e">&#9670;&nbsp;</a></span>ConstruirPalo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConstruirPalo </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>palo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>p3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>p4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>p5</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ConstruirPalo. </p>
+<p>construye el palo (devuelve 5 partes)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">palo</td><td>palo a construir </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p1</td><td>parte 1 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p2</td><td>parte 2 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p3</td><td>parte 3 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p4</td><td>parte 4 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p5</td><td>parte 5 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9390e42cbe357dcdbbe2c3b646a787a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9390e42cbe357dcdbbe2c3b646a787a8">&#9670;&nbsp;</a></span>ConstruirSuperior()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ConstruirSuperior </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_carta.html">Carta</a>&#160;</td>
+          <td class="paramname"><em>carta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ConstruirSuperior. </p>
+<p>construye la parte superior de la carta</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">carta</td><td>carta que vamos a representar </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1763e3d29009b3c843d38b2bbfadcc48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1763e3d29009b3c843d38b2bbfadcc48">&#9670;&nbsp;</a></span>EscribirDatos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EscribirDatos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td>
+          <td class="paramname"><em>baraja</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ofstream &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>puntos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>EscribirDatos. </p>
+<p>Escribe la informacion de la ultima partida</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">baraja</td><td>baraja del jugador/banca </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">f</td><td>fichero donde se va a guardar </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">puntos</td><td>Puntos del jugador </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8fce1ca52115812ebf4258582d113515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fce1ca52115812ebf4258582d113515">&#9670;&nbsp;</a></span>GenerarBaraja()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_baraja.html">Baraja</a> GenerarBaraja </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Palos</a>&#160;</td>
+          <td class="paramname"><em>Palos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GenerarBaraja. </p>
+<p>Genera una baraja con 40 cartas (10 por palo)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Palos</td><td>Vector de palos </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7a0208ee9ad240ec0a3fac04a9a6048a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0208ee9ad240ec0a3fac04a9a6048a">&#9670;&nbsp;</a></span>IdentificarJugador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_jugador.html">Jugador</a> IdentificarJugador </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_jugadores.html">Jugadores</a> &amp;&#160;</td>
+          <td class="paramname"><em>jugs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IdentificarJugador. </p>
+<p>Identifica un jugador</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">nom</td><td>nombre del jugador </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">jugs</td><td>agrupacion de jugadores que manejara el programa </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad9ebd837e20ecf9aa78abb7164f873d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9ebd837e20ecf9aa78abb7164f873d8">&#9670;&nbsp;</a></span>Jugar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jugar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td>
+          <td class="paramname"><em>baraja</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_jugador.html">Jugador</a> &amp;&#160;</td>
+          <td class="paramname"><em>j_actual</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_jugadores.html">Jugadores</a> &amp;&#160;</td>
+          <td class="paramname"><em>jugs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>nom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Jugar. </p>
+<p>Funcion que hace el juego comience</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">baraja</td><td>baraja con la que se jugara </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">j_actual</td><td>jugador que esta jugando </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">jugs</td><td>Agrupacion de jugadores </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">nom</td><td>Nombre del jugador activo </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a744270c7a9ce3f8b7c06acf537d568fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744270c7a9ce3f8b7c06acf537d568fd">&#9670;&nbsp;</a></span>LeerCartas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_baraja.html">Baraja</a> LeerCartas </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ifstream &amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>LeerCartas. </p>
+<p>Lee las cartas de cada jugador de un fichero binario</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>Numero de cartas que hay en el fichero </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td>fichero del que leemos </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>La agrupacion de cartas leida </dd></dl>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf35efdd802bb3196df2a87a23ecc1cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf35efdd802bb3196df2a87a23ecc1cf">&#9670;&nbsp;</a></span>MostrarBienvenida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MostrarBienvenida </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MostrarBienvenida. </p>
+<p>Muestra un mensaje amigable de bienvenida </p>
+
+</div>
+</div>
+<a id="ae0078df6e80ca916588b6d91342962c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0078df6e80ca916588b6d91342962c7">&#9670;&nbsp;</a></span>MostrarCartas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MostrarCartas </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MostrarCartas. </p>
+<p>Muestra la baraja de cada jugador</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>baraja a mostrar </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9a0b233741b33b3dc1f5c02ce26700b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0b233741b33b3dc1f5c02ce26700b8">&#9670;&nbsp;</a></span>MostrarDinero()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MostrarDinero </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_jugador.html">Jugador</a>&#160;</td>
+          <td class="paramname"><em>j</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MostrarDinero. </p>
+<p>Muestra el dinero del jugador que se le pasa</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>jugador del que vamos a mostrar el dinero </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a49cfdcba070375cab6c6dfd5ec4b6267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49cfdcba070375cab6c6dfd5ec4b6267">&#9670;&nbsp;</a></span>RepartirCarta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RepartirCarta </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_baraja.html">Baraja</a>&#160;</td>
+          <td class="paramname"><em>baraja</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_baraja.html">Baraja</a> &amp;&#160;</td>
+          <td class="paramname"><em>cartas_repartidas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>puntos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>indice_baraja</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>RepartirCarta. </p>
+<p>Reparte una carta</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">baraja</td><td>baraja de donde se va a repartir </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">cartas_repartidas</td><td>cartas ya repartidas </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">puntos</td><td>puntos actuales </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">indice_baraja</td><td>numero de cartas repartidas hasta el momento </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2884d54f261df6054e401a365d48c014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2884d54f261df6054e401a365d48c014">&#9670;&nbsp;</a></span>Salida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Salida </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>n_f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_jugadores.html">Jugadores</a>&#160;</td>
+          <td class="paramname"><em>jugs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Salida. </p>
+<p>Escribe los jugadores identificados en el fichero</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n_f</td><td>nombre del fichero </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">jugs</td><td>Agrupacion de jugadores </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2247483242e4b291db607260089bda44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2247483242e4b291db607260089bda44">&#9670;&nbsp;</a></span>UltimaPartida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UltimaPartida </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>UltimaPartida. </p>
+<p>Muestra la ultima partida</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>nombre del fichero del que leemos </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las variables</h2>
+<a id="abccf123aa6f5de847e763879178ac91b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abccf123aa6f5de847e763879178ac91b">&#9670;&nbsp;</a></span>BIENVENIDA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BIENVENIDA = &quot;bienvenida.txt&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nombre del mensaje de bienvenida. </p>
+
+</div>
+</div>
+<a id="a025f198deaa08a3970f6b45d4be5f19a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a025f198deaa08a3970f6b45d4be5f19a">&#9670;&nbsp;</a></span>FICHERO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string FICHERO = &quot;dinero.juego&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nombre del fichero de los jugadores. </p>
+
+</div>
+</div>
+<a id="a725940f6d1df2006dccc42a6303fe6c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725940f6d1df2006dccc42a6303fe6c5">&#9670;&nbsp;</a></span>MAX_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int MAX_C = 40</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximo numero de cartas en la baraja. </p>
+
+</div>
+</div>
+<a id="a001b5c7f81711a6aac2ed7b3906a8f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001b5c7f81711a6aac2ed7b3906a8f04">&#9670;&nbsp;</a></span>MAX_J</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int MAX_J = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximo numero de jugadores. </p>
+
+</div>
+</div>
+<a id="a21e9b221f96043b2d6e2f087d31bcfda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e9b221f96043b2d6e2f087d31bcfda">&#9670;&nbsp;</a></span>MAX_P</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int MAX_P = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximo numero de palos. </p>
+
+</div>
+</div>
+<a id="af2cd0c1ab62e664ce66de992424ae3a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2cd0c1ab62e664ce66de992424ae3a0">&#9670;&nbsp;</a></span>PALOS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="_siete_y_medio_8cpp.html#a4f12943a525bea4bb84e46d81252d727">Palos</a> PALOS = {&quot;Oros&quot;,&quot;Bastos&quot;,&quot;Espadas&quot;,&quot;Copas&quot;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Palos. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

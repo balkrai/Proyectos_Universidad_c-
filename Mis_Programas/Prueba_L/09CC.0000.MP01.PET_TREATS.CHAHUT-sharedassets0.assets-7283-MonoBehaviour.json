@@ -1,0 +1,151 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1143
+        },
+        "1 string m_Name": "09CC.0000.MP01.PET_TREATS.CHAHUT",
+        "1 string _guid": "2358b1ab4b7f7fb449b13c0b53b2844a",
+        "0 ConversationId ConvoId": 
+        {
+            "1 string IdString": "09CC.0000.MP01.PET_TREATS.CHAHUT",
+            "1 string Area": "09CC",
+            "1 string MajorPlot": "0000",
+            "1 string MinorPlot": "MP01",
+            "1 string Character": "PET_TREATS",
+            "1 string Conversation": "CHAHUT",
+            "0 BranchId Branches": 
+            {
+                "0 Array Array": []
+            }
+        },
+        "1 UInt8 DestroyConversationAfterSceneChange": 0,
+        "0 PPtr<$CounterData> HasBeenPlayedCounter": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int AutoPlayLines": 0,
+        "0 ConversationLine Lines": 
+        {
+            "0 Array Array": [
+                {"0 ConversationLine data": 
+                {
+                    "0 int SpeakerId": 44,
+                    "0 int EmotionIndex": 0,
+                    "1 UInt8 IsPlayerOption": 0,
+                    "0 int TextColorOverride": 0,
+                    "0 ConversationId OptionConvoId": 
+                    {
+                        "1 string IdString": "",
+                        "1 string Area": "",
+                        "1 string MajorPlot": "",
+                        "1 string MinorPlot": "",
+                        "1 string Character": "",
+                        "1 string Conversation": "",
+                        "0 BranchId Branches": 
+                        {
+                            "0 Array Array": []
+                        }
+                    },
+                    "1 UInt8 EndsConversation": 0,
+                    "1 string LineText": "ahahah all of These are good wiTh a liTTle biT 'o cloTTed high faT milk producT",
+                    "0 Condition Condition": 
+                    {
+                        "1 UInt8 _never": 0,
+                        "1 UInt8 CheckPartyLeaderOnly": 0,
+                        "0 vector _requiresOneOfTheseItems": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 vector _requiresAllOfTheseItems": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 vector _mustNotHaveTheseItems": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 vector _mustHaveTheseAbilities": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 vector _mustNotHaveTheseAbilities": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 int MustBeHero": -1,
+                        "1 string CurrentScene": "",
+                        "1 string LastScene": "",
+                        "0 vector MustHaveTargetedObjs": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 vector MustNotHaveTargetedObjs": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "0 CounterTest _counterTests": 
+                        {
+                            "0 Array Array": []
+                        },
+                        "1 UInt8 AltTitleInactive": 0,
+                        "1 UInt8 AltTitleActive": 0
+                    },
+                    "0 int DisplaySpeed": 6,
+                    "0 OutcomeSequence Outcome": 
+                    {
+                        "0 PPtr<$OutcomeCanvas> Sequence": 
+                        {
+                            "0 int m_FileID": 0,
+                            "0 SInt64 m_PathID": 0
+                        }
+                    },
+                    "1 UInt8 HideLineUntilOutcomeFinishes": 0,
+                    "0 int NextLineIndex": -1,
+                    "0 int LoopLineIndex": -1,
+                    "0 ConversationLinkMapping LinkMappings": 
+                    {
+                        "0 Array Array": []
+                    },
+                    "0 int LineVFX": 0,
+                    "1 UInt8 HideConversationWindowForLine": 0
+                }}
+            ]
+        },
+        "0 OutcomeSequence FinalOutcome": 
+        {
+            "0 PPtr<$OutcomeCanvas> Sequence": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            }
+        },
+        "1 UInt8 IsPlayerOnly": 0,
+        "1 UInt8 IsRefresher": 1,
+        "0 PPtr<$ConversationUi> ConversationUIOverride": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Vector3f ConvoZoomOffsetOverride": 
+        {
+            "0 float x": 0,
+            "0 float y": 0,
+            "0 float y": 0
+        },
+        "0 float ConvoCameraSizeOverride": 0,
+        "0 ConversationLine OrphanedLines": 
+        {
+            "0 Array Array": []
+        }
+    }
+}

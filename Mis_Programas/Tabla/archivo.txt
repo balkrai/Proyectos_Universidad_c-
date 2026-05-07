@@ -1,0 +1,11 @@
+Nombre;Tipo 1;Tipo 2;Sexo;Pais
+Pikachu;Electrico;;Machooo;Espanya
+Charizard;Fuego;Dragon;Hembraa;Espanya
+Emolga;Electrico;1;Macho;Espanya
+Sableye;Siniestro;fantasma;Hembra;Espanya
+Ambipon;Normal;;Machoo4;Espanya
+Pikachu;Electrico;;Machooo;Espanya
+Charizard;Fuego;Dragon;Hembraa;Espanya
+Emolga;Electrico;1;Macho;Espanya
+Sableye;Siniestro;fantasma;Hembra;Espanya
+Ambipon;Normal;;Machoo4;Espanya
